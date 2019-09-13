@@ -6,6 +6,7 @@
       <class name="guru99Demo.guru99Demo.LoginTestCase"/>
       <class name="guru99Demo.guru99Demo.LoginTopNavTC2"/>
       <class name="guru99Demo.guru99Demo.AppTest"/>
+      <class name="guru99Demo.guru99Demo.HomepageValidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

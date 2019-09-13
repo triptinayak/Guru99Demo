@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="guru99Demo.guru99Demo.LoginTestCase">
+      <class name="guru99Demo.guru99Demo.HomepageValidation">
         <methods>
-          <include name="userLogin" invocation-numbers="1"/>
           <include name="startup"/>
+          <include name="Landingpage"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- guru99Demo.guru99Demo.LoginTestCase -->
+      </class> <!-- guru99Demo.guru99Demo.HomepageValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

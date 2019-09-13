@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="48.016" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="18.897" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\tript\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2623258370822515418.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\tript\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5158437697160117933.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jre1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\tript\Maven\apache-maven-3.6.1\bin;C:\Users\tript\AppData\Local\Programs\Python\Python37-32;C:\Users\tript\Python\Python37-32\Scripts;C:\Users\tript\Python\Python37-32;%CHROME_PATH%;C:\Users\tript\Ant\apache-ant-1.9.14\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\tript\Eclipse\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,19 +60,36 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="userLogin" classname="guru99Demo.guru99Demo.LoginTestCase" time="1.163"/>
-  <testcase name="userLogin" classname="guru99Demo.guru99Demo.LoginTestCase" time="30.052">
-    <failure message="Unable to locate element: //input[@name=&apos;uid&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-T3IG8H8&apos;, ip: &apos;10.0.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\tript\AppData\Local\Temp\rust_mozprofile.PRDQjlQpM5th, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=26756.0, browserName=firefox, moz:buildID=20190607204818, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: daa22b8f-1556-4765-a6a7-b60440a5f9e9&#10;*** Element info: {Using=xpath, value=//input[@name=&apos;uid&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //input[@name='uid']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+  <testcase name="userLogin" classname="guru99Demo.guru99Demo.LoginTestCase" time="2.001"/>
+  <testcase name="userLogin" classname="guru99Demo.guru99Demo.LoginTestCase" time="0.786"/>
+  <testcase name="userLogin" classname="guru99Demo.guru99Demo.HomepageValidation" time="2.172"/>
+  <testcase name="userLogin" classname="guru99Demo.guru99Demo.LoginTopNavTC2" time="6.006"/>
+  <testcase name="teardown" classname="guru99Demo.guru99Demo.HomepageValidation" time="6.767">
+    <failure message="Dismissed user prompt dialog: User or Password is not valid: &#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-T3IG8H8&apos;, ip: &apos;10.0.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\tript\AppData\Local\Temp\rust_mozprofile.4btCpRSOlzeT, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=18444.0, browserName=firefox, moz:buildID=20190607204818, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: fd036abf-c6c9-416d-8c89-a1b56a19f64e" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
+Dismissed user prompt dialog: User or Password is not valid: 
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-T3IG8H8', ip: '10.0.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\tript\AppData\Local\Temp\rust_mozprofile.PRDQjlQpM5th, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=26756.0, browserName=firefox, moz:buildID=20190607204818, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: daa22b8f-1556-4765-a6a7-b60440a5f9e9
-*** Element info: {Using=xpath, value=//input[@name='uid']}
-	at guru99Demo.guru99Demo.LoginTestCase.userLogin(LoginTestCase.java:41)
+Capabilities [{moz:profile=C:\Users\tript\AppData\Local\Temp\rust_mozprofile.4btCpRSOlzeT, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=18444.0, browserName=firefox, moz:buildID=20190607204818, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: fd036abf-c6c9-416d-8c89-a1b56a19f64e
 </failure>
+    <system-out><![CDATA[Test complete
+]]></system-out>
+    <system-err><![CDATA[1568385615222	Marionette	INFO	Stopped listening on port 55895
+[Parent 31492, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559936101/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 31492, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559936101/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559936101/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 31492, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559936101/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 31708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559936101/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 30476, Chrom
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+e_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+]]></system-err>
   </testcase>
-  <testcase name="userLogin" classname="guru99Demo.guru99Demo.LoginTopNavTC2" time="6.691"/>
 </testsuite>
