@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.016 s <<< FAILURE! - in TestSuite
+userLogin(guru99Demo.guru99Demo.LoginTestCase)  Time elapsed: 30.052 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //input[@name='uid']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-T3IG8H8', ip: '10.0.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\tript\AppData\Local\Temp\rust_mozprofile.PRDQjlQpM5th, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=26756.0, browserName=firefox, moz:buildID=20190607204818, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: daa22b8f-1556-4765-a6a7-b60440a5f9e9
+*** Element info: {Using=xpath, value=//input[@name='uid']}
+	at guru99Demo.guru99Demo.LoginTestCase.userLogin(LoginTestCase.java:41)
+
